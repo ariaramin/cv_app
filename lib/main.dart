@@ -27,7 +27,7 @@ class Application extends StatelessWidget {
   PreferredSizeWidget _getAppBar() {
     return AppBar(
       elevation: 0,
-      backgroundColor: Color.fromARGB(255, 244, 54, 101),
+      backgroundColor: Colors.blue[700],
       title: Text("آریا رامین"),
       centerTitle: true,
     );
@@ -49,10 +49,10 @@ class Application extends StatelessWidget {
     return Column(
       children: [
         SizedBox(
-          height: 24,
+          height: 28,
         ),
         CircleAvatar(
-          backgroundImage: AssetImage("images/arsenix.png"),
+          backgroundImage: AssetImage("images/profile.jpg"),
           radius: 62,
         ),
         SizedBox(
@@ -66,7 +66,7 @@ class Application extends StatelessWidget {
           height: 4,
         ),
         Text(
-          "عاشق کامپیوتر و موبایل و هر چیزی که به تکنولوژی مربوط باشه",
+          "عاشق کامپیوتر و موبایل و هر چیزی که به تکنولوژی مربوطه",
           textAlign: TextAlign.center,
         ),
         SizedBox(
@@ -107,7 +107,7 @@ class Application extends StatelessWidget {
 
   Widget _getHistory() {
     var resumeList = [
-      "💻 از سال ۹۹ به طور جدی برنامه نویسی رو از حوزه وب شروع کردم",
+      "💻 از سال ۹۸ برنامه نویسی رو از حوزه وب شروع کردم",
       "📱 از سال ۱۴۰۰ به حوزه اندروید و موبایل علاقه‌مند شدم",
       "👨‍💻 یکسال در حوزه اندروید فعالیت کردم و بعد از اون به فلاتر علاقه‌مند شدم",
       "📚 درحال حاضر هم مشغول یادگیری فلاتر هستم",
