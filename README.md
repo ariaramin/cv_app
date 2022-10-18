@@ -1,6 +1,6 @@
 # portfolio
 
-A new Flutter project.
+![image](preview/Cv.png)
 
 ## Getting Started
 
